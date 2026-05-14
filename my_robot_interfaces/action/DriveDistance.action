@@ -1,0 +1,11 @@
+# Goal
+float64 distance
+float64 speed
+---
+# Result
+float64 total_distance
+bool success
+---
+# Feedback
+float64 current_distance
+float64 percentage

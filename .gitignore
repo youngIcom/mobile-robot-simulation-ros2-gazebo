@@ -1,0 +1,26 @@
+# C++ & Python compilation
+*.o
+*.so
+*.pyc
+__pycache__/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ROS 2 Workspaces
+# (Walaupun berada di src/, jaga-jaga kalau git di-init di luar)
+build/
+install/
+log/
+*~
+
+# IDEs
+.vscode/
+.idea/
+*.swp
