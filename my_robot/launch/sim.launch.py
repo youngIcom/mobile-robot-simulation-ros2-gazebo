@@ -42,16 +42,18 @@ def generate_launch_description():
         arguments=[
             '/cmd_vel@geometry_msgs/msg/Twist@gz.msgs.Twist',
             '/odom@nav_msgs/msg/Odometry@gz.msgs.Odometry',
-            '/join_state@sensor_msgs/msg/JointState@gz.msgs.Model',
+            '/joint_states@sensor_msgs/msg/JointState@gz.msgs.Model',
             '/tf@tf2_msgs/msg/TFMessage@gz.msgs.Pose_V'
         ],
         output='screen'
     )
 
     # RViz
+    rviz_config_file = os.path.join(pkg, 'rviz', 'urdf_config.rviz')
     rviz = Node(
         package='rviz2',
         executable='rviz2',
+        arguments=['-d', rviz_config_file],
         parameters=[{'use_sim_time': True}],
         output='screen'
     )
