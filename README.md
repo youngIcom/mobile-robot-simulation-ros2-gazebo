@@ -43,13 +43,19 @@ A fundamental ROS 2 project built with **ROS 2 Jazzy** demonstrating how to crea
 
 ## Usage
 
-1. Run the Speed Service node:
+1. Run the simulation:
+
+   ```bash
+   ros2 launch my_robot sim.launch.py
+   ```
+
+2. Run the Speed Service node:
 
    ```bash
    ros2 run my_robot speed_service
    ```
 
-2. In another terminal, call the service to set the robot's speed:
+3. In another terminal, call the service to set the robot's speed:
    ```bash
    ros2 service call /set_speed my_robot_interfaces/srv/SetSpeed "{linear_speed: 0.5, angular_speed: 1.0}"
    ```
