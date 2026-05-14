@@ -28,6 +28,8 @@ setup(
         'console_scripts': [
             'robot_controller = my_robot.robot_controller:main',
             'speed_service = my_robot.speed_service:main',
+            'drive_action_server = my_robot.drive_action_server:main',
+            'teleop_keyboard = my_robot.teleop_keyboard:main',
         ],
     },
 )
