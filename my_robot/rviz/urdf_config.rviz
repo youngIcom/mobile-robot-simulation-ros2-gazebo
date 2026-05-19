@@ -31,6 +31,21 @@ Visualization Manager:
       Enabled: true
       Name: RobotModel
       Visual Enabled: true
+    - Class: rviz_default_plugins/Odometry
+      Enabled: true
+      Keep: 500
+      Name: OdometryTracking
+      Position Tolerance: 0.1
+      Angle Tolerance: 0.1
+      Topic:
+        Value: /odom
+      Shape:
+        Value: Arrow
+        Color: 255; 0; 0
+        Shaft Length: 0.1
+        Head Length: 0.05
+        Shaft Radius: 0.01
+        Head Radius: 0.02
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
