@@ -44,9 +44,9 @@ class TeleopKeyboard(Node):
         super().__init__('teleop_keyboard')
         self.cmd_pub = self.create_publisher(Twist, '/cmd_vel', 10)
         
-        # Kecepatan default
-        self.speed = 0.5   # m/s
-        self.turn = 1.0    # rad/s
+        # Kecepatan default dikurangi agar robot tidak jumping (wheelie)
+        self.speed = 0.2   # m/s (sebelumnya 0.5)
+        self.turn = 0.5    # rad/s (sebelumnya 1.0)
 
     def publish_twist(self, linear, angular):
         twist = Twist()

@@ -58,12 +58,22 @@ This project is built as a learning resource to demonstrate the five foundationa
 
 _Always make sure to source your workspace (`source install/setup.zsh`) in every new terminal._
 
-### 1. Launch the Gazebo Simulation
+### 1. Launch the Gazebo Simulation & RViz2
 
-Start the simulation world and spawn the robot.
+Start the Gazebo simulation world, spawn the 3D CAD robot model (`assembly_1`), and open RViz2 for visualization.
+
+#### Run Robot 1 (Simple Robot using 2 wheels, free wheel, and imu sensor)
+<img src="assets/robot_1.png" alt="Robot_2 di Gazebo" width="600">
 
 ```bash
 ros2 launch my_robot sim.launch.py
+```
+#### Run Robot 2 (Custom Design with 2 wheels, free wheel and IMU BNO055 Design)
+This project was design by Onshape
+<img src="assets/robot_2.png" alt="Robot_1 di Gazebo" width="600">
+
+```bash
+ros2 launch my_robot assembly_sim.launch.py
 ```
 
 ### 2. Manual Control (Teleop Keyboard)
