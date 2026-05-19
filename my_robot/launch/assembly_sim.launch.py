@@ -35,14 +35,14 @@ def generate_launch_description():
         PythonLaunchDescriptionSource(
             os.path.join(get_package_share_directory('ros_gz_sim'), 'launch', 'gz_sim.launch.py')
         ),
-        launch_arguments={'gz_args': '-r empty.sdf'}.items()
+        launch_arguments={'gz_args': '-r -v 4 empty.sdf'}.items()
     )
 
     # Spawn robot
     spawn = Node(
         package='ros_gz_sim',
         executable='create',
-        arguments=['-topic', 'robot_description', '-name', 'assembly_robot', '-z', '0.1'],
+        arguments=['-topic', 'robot_description', '-name', 'assembly_robot', '-z', '0.0'],
         output='screen'
     )
 
@@ -50,12 +50,21 @@ def generate_launch_description():
     bridge = Node(
         package='ros_gz_bridge',
         executable='parameter_bridge',
+        parameters=[{'use_sim_time': True}],
         arguments=[
             '/cmd_vel@geometry_msgs/msg/Twist@gz.msgs.Twist',
             '/odom@nav_msgs/msg/Odometry@gz.msgs.Odometry',
             '/joint_states@sensor_msgs/msg/JointState@gz.msgs.Model',
             '/tf@tf2_msgs/msg/TFMessage@gz.msgs.Pose_V'
         ],
+        output='screen'
+    )
+
+    # GZ Clock Bridge
+    clock_bridge = Node(
+        package='ros_gz_bridge',
+        executable='parameter_bridge',
+        arguments=['/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock'],
         output='screen'
     )
 
@@ -74,6 +83,7 @@ def generate_launch_description():
         gz_sim,
         robot_state_pub,
         spawn,
+        clock_bridge,
         bridge,
         rviz
     ])

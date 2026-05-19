@@ -26,7 +26,11 @@
         <origin xyz="0 0 0.0265" rpy="0 0 1.5708" />
     </joint>
     <link name="n20_dc_motor">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0.0031 0.000180321 4.95087e-20" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -38,7 +42,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_1">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-0.00301464 0.0215 -0.00196331" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -50,7 +58,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_10">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="8.58487e-10 0.00482694 1.04108e-08" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -62,7 +74,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_11">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="8.58487e-10 0.00482694 1.04108e-08" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -74,7 +90,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_12">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-0.00301464 0.0215 -0.00196331" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -86,7 +106,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_13">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-2.72401e-19 0.00995 5.90222e-19" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -98,7 +122,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_14">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-0.00301464 0.02105 -0.00196331" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -110,7 +138,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_15">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-0.00380137 0.0194547 0.00279944" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -122,7 +154,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_16">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0.00380138 0.0194547 -0.00279944" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -134,7 +170,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_17">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-0.00301464 0.0215 -0.00196331" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -146,7 +186,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_18">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="2.74631e-16 0.0226 1.80891e-16" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -158,7 +202,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_19">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="8.58487e-10 0.00482694 1.04108e-08" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -170,7 +218,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_2">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-3.23214e-20 0.00243 9.86239e-20" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -182,7 +234,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_20">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0.00221199 0.0025101 0.00126955" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -194,7 +250,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_21">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0.00301464 0.0196 0.00196331" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -206,7 +266,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_22">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-0.00301464 0.02105 -0.00196331" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -218,7 +282,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_23">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0.000106939 0.0284558 3.8851e-05" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -230,7 +298,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_24">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="1.60405e-18 0.016975 -3.4762e-18" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -242,7 +314,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_25">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-1.95082e-05 0.0157936 -1.65584e-05" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -254,7 +330,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_26">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-0.00301464 0.02105 -0.00196331" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -266,7 +346,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_27">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0.0031 0.000180321 4.95087e-20" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -278,7 +362,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_28">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-9.03607e-06 0.0106644 1.75544e-06" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -290,7 +378,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_29">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="7.58418e-10 0.0166 0.003" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -302,7 +394,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_3">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0.000106939 0.0284558 3.8851e-05" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -314,7 +410,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_30">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0.00424713 0.00995 -1.84681e-05" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -326,7 +426,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_31">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-2.72401e-19 0.00995 5.90222e-19" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -338,7 +442,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_32">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0.00301464 0.0199 0.00196331" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -350,7 +458,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_33">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0.00301464 0.0181 0.00196331" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -362,7 +474,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_34">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="4.89731e-19 0.00457622 -1.34053e-18" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -374,7 +490,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_35">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-0.00424713 0.00995 1.84681e-05" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -386,7 +506,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_36">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0.00380138 0.0194547 -0.00279944" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -398,7 +522,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_37">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0.00221199 0.0025101 0.00126955" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -410,7 +538,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_38">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-0.000728808 0.0184494 -0.000484326" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -422,7 +554,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_39">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="7.58418e-10 0.0166 0.003" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -434,7 +570,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_4">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-3.47095e-20 0.020675 -1.8883e-18" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -446,7 +586,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_40">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-3.23214e-20 0.00243 9.86239e-20" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -458,7 +602,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_41">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-1.95082e-05 0.0157936 -1.65584e-05" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -470,7 +618,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_42">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0.00301464 0.0196 0.00196331" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -482,7 +634,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_43">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="1.60405e-18 0.016975 -3.4762e-18" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -494,7 +650,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_44">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="7.95674e-19 0.0176 0.003" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -506,7 +666,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_45">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-0.000728808 0.0184494 -0.000484326" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -518,7 +682,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_46">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-0.00221199 0.0025101 -0.00126955" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -530,7 +698,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_47">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="7.58418e-10 0.0174 0.003" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -542,7 +714,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_48">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0.00301464 0.0196 0.00196331" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -554,7 +730,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_49">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="1.4339e-10 0.0230278 -8.58845e-11" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -566,7 +746,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_5">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0.0031 0.000180321 4.95087e-20" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -578,7 +762,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_50">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0.00301464 0.0181 0.00196331" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -590,7 +778,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_51">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0.00221199 0.0025101 0.00126955" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -602,7 +794,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_52">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-0.0031 0.000180321 -4.95087e-20" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -614,7 +810,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_53">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-0.0031 0.000180321 -4.95087e-20" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -626,7 +826,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_54">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-3.47095e-20 0.020675 -1.8883e-18" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -638,7 +842,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_55">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-0.00424713 0.00995 1.84681e-05" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -650,7 +858,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_56">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-2.23565e-09 0.0010236 -6.43079e-06" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -662,7 +874,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_57">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-1.95082e-05 0.0157936 -1.65584e-05" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -674,7 +890,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_58">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-0.00221199 0.0025101 -0.00126955" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -686,7 +906,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_59">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="4.89731e-19 0.00457622 -1.34053e-18" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -698,7 +922,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_6">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="7.58418e-10 0.0174 0.003" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -710,7 +938,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_60">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-2.23565e-09 0.0010236 -6.43079e-06" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -722,7 +954,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_61">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="7.58418e-10 0.0174 0.003" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -734,7 +970,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_62">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-9.03607e-06 0.0106644 1.75544e-06" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -746,7 +986,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_63">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="7.58418e-10 0.0166 0.003" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -758,7 +1002,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_64">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0.00424713 0.00995 -1.84681e-05" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -770,7 +1018,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_65">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-0.00380137 0.0194547 0.00279944" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -782,7 +1034,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_66">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="2.74631e-16 0.0226 1.80891e-16" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -794,7 +1050,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_67">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-0.00380137 0.0194547 0.00279944" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -806,7 +1066,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_68">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="1.4339e-10 0.0230278 -8.58845e-11" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -818,7 +1082,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_69">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-0.00424713 0.00995 1.84681e-05" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -830,7 +1098,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_7">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-2.74404e-16 0.0198 -1.78792e-16" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -842,7 +1114,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_70">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="7.95674e-19 0.0176 0.003" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -854,7 +1130,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_71">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="1.60405e-18 0.016975 -3.4762e-18" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -866,7 +1146,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_72">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="7.95674e-19 0.0176 0.003" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -878,7 +1162,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_73">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0.00380138 0.0194547 -0.00279944" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -890,7 +1178,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_74">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0.00424713 0.00995 -1.84681e-05" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -902,7 +1194,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_75">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-1.12027e-20 0.00869591 5.31774e-21" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -914,7 +1210,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_76">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-1.12027e-20 0.00869591 5.31774e-21" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -926,7 +1226,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_77">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="2.74631e-16 0.0226 1.80891e-16" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -938,7 +1242,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_78">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-1.12027e-20 0.00869591 5.31774e-21" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -950,7 +1258,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_79">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-2.74404e-16 0.0198 -1.78792e-16" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -962,7 +1274,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_8">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="1.4339e-10 0.0230278 -8.58845e-11" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -974,7 +1290,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_80">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-2.74404e-16 0.0198 -1.78792e-16" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -986,7 +1306,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_81">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-9.03607e-06 0.0106644 1.75544e-06" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -998,7 +1322,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_82">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-0.00301464 0.022275 -0.00196331" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -1010,7 +1338,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_83">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-0.00301464 0.022275 -0.00196331" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -1022,7 +1354,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_84">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-0.00301464 0.022275 -0.00196331" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -1034,7 +1370,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_85">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-0.000728808 0.0184494 -0.000484326" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -1046,7 +1386,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_86">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-0.00221199 0.0025101 -0.00126955" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -1058,7 +1402,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_87">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-3.23214e-20 0.00243 9.86239e-20" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -1070,7 +1418,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_88">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-2.72401e-19 0.00995 5.90222e-19" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -1082,7 +1434,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_89">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0.00301464 0.0181 0.00196331" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -1094,7 +1450,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_9">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0.00301464 0.0199 0.00196331" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -1106,7 +1466,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_90">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-3.47095e-20 0.020675 -1.8883e-18" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -1118,7 +1482,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_91">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-2.23565e-09 0.0010236 -6.43079e-06" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -1130,7 +1498,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_92">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-0.0031 0.000180321 -4.95087e-20" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -1142,7 +1514,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_93">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="4.89731e-19 0.00457622 -1.34053e-18" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -1154,7 +1530,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_94">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0.000106939 0.0284558 3.8851e-05" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -1166,7 +1546,11 @@
         </visual>
     </link>
     <link name="n20_dc_motor_95">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0.00301464 0.0199 0.00196331" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -1178,7 +1562,11 @@
         </visual>
     </link>
     <link name="n20_support_v7">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-7.57569e-11 -0.000291128 0.0060896" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -1190,7 +1578,11 @@
         </visual>
     </link>
     <link name="n20_support_v7_1">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-7.57569e-11 -0.000291128 0.0060896" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -1278,7 +1670,11 @@
         </visual>
     </link>
     <link name="part_1">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="-0.000239132 -0.0105398 0.0015" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
@@ -2301,52 +2697,116 @@
         </visual>
     </link>
     <link name="sg90___micro_servo_9g___tower_pro_2__1_">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0 0 0" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
     </link>
     <link name="sg90___micro_servo_9g___tower_pro_5__1_">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0 0 0" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
     </link>
     <link name="sg90___micro_servo_9g___tower_pro_6__1_">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0 0 0" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
     </link>
     <link name="tower_pro___micro_servo_9g___sg90_1__1_">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0 0 0" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
     </link>
     <link name="tower_pro___micro_servo_9g___sg90_1__1__1">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0 0 0" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
     </link>
     <link name="tower_pro___micro_servo_9g___sg90_1__1__10">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0 0 0" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
     </link>
     <link name="tower_pro___micro_servo_9g___sg90_1__1__11">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0 0 0" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
     </link>
     <link name="tower_pro___micro_servo_9g___sg90_1__1__12">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0 0 0" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
     </link>
     <link name="tower_pro___micro_servo_9g___sg90_1__1__2">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0 0 0" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
     </link>
     <link name="tower_pro___micro_servo_9g___sg90_1__1__3">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0 0 0" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
     </link>
     <link name="tower_pro___micro_servo_9g___sg90_1__1__4">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0 0 0" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
     </link>
     <link name="tower_pro___micro_servo_9g___sg90_1__1__5">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0 0 0" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
     </link>
     <link name="tower_pro___micro_servo_9g___sg90_1__1__6">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0 0 0" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
     </link>
     <link name="tower_pro___micro_servo_9g___sg90_1__1__7">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0 0 0" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
     </link>
     <link name="tower_pro___micro_servo_9g___sg90_1__1__8">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0 0 0" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
     </link>
     <link name="tower_pro___micro_servo_9g___sg90_1__1__9">
-        
+        <inertial>
+            <mass value="0.001" />
+            <origin xyz="0 0 0" rpy="0 -0 0" />
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+        </inertial>
     </link>
     <joint name="fixed_node_to_root_joint" type="fixed">
         <origin xyz="-0.0208619 0.0405861 -0.00489354" rpy="0 -0 1.5708" />
