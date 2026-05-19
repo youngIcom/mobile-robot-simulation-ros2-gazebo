@@ -2,6 +2,14 @@
 
 A fundamental ROS 2 project built with **ROS 2 Jazzy** demonstrating how to create custom services, actions, use parameters, and publish velocity commands (`cmd_vel`) to control a mobile robot in Gazebo.
 
+## 🤖 What are ROS 2, Gazebo, and RViz?
+
+Before diving into the code, it's essential to understand the three main pillars of this project:
+
+- **ROS 2 (Robot Operating System 2):** Not an actual operating system, but a middleware framework that provides libraries, tools, and communication protocols (like Topics, Services, and Actions) to help developers build robust robot applications. It acts as the "brain" and the "nervous system" connecting all parts of the robot.
+- **Gazebo:** A powerful 3D physics simulator used to rapidly test algorithms, design robots, and perform regression testing in realistic scenarios. It acts as the "virtual physical world" where our robot models collide, accelerate, and interact with gravity and friction.
+- **RViz (ROS Visualization):** A 3D visualization tool for ROS. While Gazebo simulates the *physics* of the world, RViz visualizes what the robot *sees* and *thinks*. It displays sensor data (like lasers or cameras), the robot's internal coordinate frames (TF), and its calculated paths (Odometry Tracking).
+
 ## 🧠 Core ROS 2 Concepts Demonstrated
 
 This project is built as a learning resource to demonstrate the five foundational concepts of ROS 2:
@@ -75,6 +83,7 @@ This project was design by Onshape
 ```bash
 ros2 launch my_robot assembly_sim.launch.py
 ```
+*Note: RViz2 is configured to automatically display an **Odometry Tracking** path (red arrows) behind Robot 2 as it moves.*
 
 ### 2. Manual Control (Teleop Keyboard)
 
