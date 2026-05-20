@@ -50,6 +50,11 @@ This project is built as a learning resource to demonstrate the five foundationa
    ```
 
 3. Source the environment:
+Gunakan pada terminal yang menggunakan bash
+   ```bash
+   source install/setup.bash
+   ```
+Gunakan pada terminal yang menggunakan zsh
    ```bash
    source install/setup.zsh
    ```

@@ -11,7 +11,7 @@ class SpeedServiceNode(Node):
         super().__init__('speed_service_node')
 
         # Parameter untuk batas keamanan
-        self.declare_parameter('max_linear_speed', 1.0)
+        self.declare_parameter('max_linear_speed', 0.6)
         self.max_linear = self.get_parameter('max_linear_speed').value
 
         # Publisher untuk langsung menggerakkan roda (Mulut)

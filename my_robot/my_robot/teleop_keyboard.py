@@ -44,7 +44,7 @@ class TeleopKeyboard(Node):
         super().__init__('teleop_keyboard')
         self.cmd_pub = self.create_publisher(Twist, '/cmd_vel', 10)
         
-        # Kecepatan default dikurangi agar robot tidak jumping (wheelie)
+        # Kecepatan default
         self.speed = 0.2   # m/s (sebelumnya 0.5)
         self.turn = 0.5    # rad/s (sebelumnya 1.0)
 
